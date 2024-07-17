@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(220, 216, 211);
+  padding: 20px;
+}
+.main{
+  max-width:550px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  
+}
+nav{
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  height: 55px;
+  column-gap: 4px;
+  align-items: center;
+}
+#logo{
+  width:24px;
+  height: 24px;
+}
+
+h4{
+  font-family: inter;
+  color: white;
+  font-weight: 500px;
+  font-size: 15px;
+}
+#card{
+  display: flex;
+  gap:19px;
+  height: 168px;
+  margin-bottom: 36px;
+}
+#description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#loc-img{
+  margin-right: 4px;
+}
+#country-span,#map, #date, #about{
+  font-family: inter;
+  font-size: 11px;
+  font-weight: 400px;
+  line-height: 16px;
+}
+
+#country-span{
+  margin-right: 12px;
+  letter-spacing: 0.17em;
+  }
+
+#map{
+  color:#918E9B;
+  font-style: underline;
+}
+
+#place{
+  margin-top: 7px;
+  margin-bottom: 14px;
+}
+
+#date{
+  font-weight: 700px;
+  margin-bottom: 9px;
+  font-weight: bold;
+}
+
+section{
+  padding: 40px;
+}
